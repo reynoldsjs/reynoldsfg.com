@@ -3188,6 +3188,16 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+	#ebookContent::-webkit-scrollbar {
+		display: none;
+	  }
+
+
+#ebookContent {
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+
 /* Wrapper */
 
 	.wrapper {
@@ -3496,7 +3506,8 @@ input, select, textarea {
 
 				#banner .content header h2 {
 					font-family:sans-serif;
-					font-size: 2.5em;
+					font-size: 3em;
+					font-weight:800;
 					margin: 0;
 				}
 
